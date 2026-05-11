@@ -15,9 +15,9 @@
 #define DEFAULT_THERM_CEIL 50
 
 // disable beacontower mode
-#ifdef USE_BEACONTOWER_MODE
-#undef USE_BEACONTOWER_MODE
-#endif
+// #ifdef USE_BEACONTOWER_MODE
+// #undef USE_BEACONTOWER_MODE
+// #endif
 
 // set smooth ramping by default
 #ifdef RAMP_STYLE
