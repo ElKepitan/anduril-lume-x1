@@ -31,3 +31,8 @@
 #ifdef SIMPLE_UI_STEPS
 #undef SIMPLE_UI_STEPS
 #endif
+
+// don't blink during ramp, it's irrelevant and annoying on this light
+#undef BLINK_AT_RAMP_CEIL
+#undef BLINK_AT_RAMP_MIDDLE
+#undef BLINK_AT_RAMP_FLOOR
