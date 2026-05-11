@@ -44,3 +44,11 @@
 #undef SIMPLE_UI_CEIL
 #define SIMPLE_UI_CEIL 107      // about ~10W
 #endif
+
+// don't blink during ramp, it's irrelevant and annoying on this light
+#undef BLINK_AT_RAMP_CEIL
+#undef BLINK_AT_RAMP_MIDDLE
+#undef BLINK_AT_RAMP_FLOOR
+
+//Activar boton
+#define USE_AUX_RGB_LEDS_WHILE_ON
