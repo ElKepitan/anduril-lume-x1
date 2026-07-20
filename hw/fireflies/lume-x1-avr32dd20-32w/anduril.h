@@ -49,6 +49,3 @@
 #undef BLINK_AT_RAMP_CEIL
 #undef BLINK_AT_RAMP_MIDDLE
 #undef BLINK_AT_RAMP_FLOOR
-
-//Activar boton
-#define USE_AUX_RGB_LEDS_WHILE_ON
